@@ -1,0 +1,133 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BeAtzmi.Pages.SuccessStory1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    d:DesignHeight="1900"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFEDEDED" FlowDirection="RightToLeft">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="119.89"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+
+        <StackPanel Grid.Row="0" Grid.RowSpan="2" Margin="0,0,0,-0.11">
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF333333" Text="בעצמי" Margin="39,0,371,0"/>
+            <TextBlock Text="סיפור הצלחה" Margin="10,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FF333333"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,12.11,12,11.89">
+            <ScrollViewer>
+                <StackPanel>
+                    <TextBlock FontFamily="Segoe UI" FontSize="20" LineHeight="36">
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="נכון, לא קל לעשות שינוים בחיים..."/>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" FontWeight="Bold" Text="אבל זה אפשרי!!"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="הנה הוכחה לכך - סיפור הצלחה של אחת"/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="המשתתפות שלנו!"/>
+                    	<LineBreak/>
+                    	<Span>
+                    		<Span Foreground="#FF333333">
+                    			<Run Text=" "/>
+                    		</Span>
+                    		<Span Foreground="#FF333333">
+                    			<LineBreak/>
+                    		</Span>
+                    	</Span>
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="ח' היא אישה בת 32 ואמא ל-5 ילדים."/>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="כשהיא הגיע לתוכנית, ח' אהבה את התחום בו עבדה,"/>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="אבל לא את המסגרת. "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="עם זאת, היא גם לא ידע"/>
+                    	<Run Foreground="#FF333333" Text="ה"/>
+                    	<Run Foreground="#FF333333" Text=" איך לעשות שינוי ולהתקדם. "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="במסגרת תוכנית מסאר היא הציבה לעצמה מטרה "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="ברורה וממוקדת: לעבוד עם אוכלוסיות בעלות צרכים "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="מיוחדים בתחום החינוך ותרפיה באומנויות. בשביל "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="להשיג את מטרתה, ח' הבינה שהיא צריכה ללמוד "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="ולסיים תואר ראשון בחינוך. למרות שלימודים אקדמיים "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="לא היו מוכרים לה, ח' נרשמה והתחילה ללמוד! באחד "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="המפגשים של תוכנית מסאר, ח' אמרה: &quot;למרות הלחץ "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="והפחד שמהדד מעל ראשי בנוגע לשינוי הזה, אני כל כך "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="שמחה שאני מוצאת את עצמי"/>
+                    	<Span>
+                    		<Span Foreground="#FF333333">
+                    			<Run Text="&quot;."/>
+                    		</Span>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Span>
+                    		<Span Foreground="#FF333333">
+                    			<Run/>
+                    		</Span>
+                    		<Span Foreground="#FF333333">
+                    			<LineBreak/>
+                    		</Span>
+                    	</Span>
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="היום, בנוסף ללימודים, ח' עובדת יומיים בשבוע "/>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="בתוכנית לחינוך באומנויות באזור המגורים שלה. "/>
+                    	<LineBreak/>
+                    	<Run Foreground="#FF333333" Text="בנוסך "/>
+                    	<Run Foreground="#FF333333" Text="להתקדמות בפן המקצועי-תעסוקתי, ח' גם דיווחה לנו שהיא הצליחה לשפר את היחסים עם ילדיה ומתמודדת "/>
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="יותר בקלות עם אתגרי החיים באופן כללי"/>
+                    	</Span>
+                    	<Span Foreground="#FF333333">
+                    		<Run Text="."/>
+                    	</Span>
+                    	<LineBreak/>
+                    	<Span Foreground="#FF333333">
+                    		<Run/>
+                    	</Span>
+                    </TextBlock>
+                    <Image Source="/Assets/sipur1.jpg" />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <Canvas x:Name="logo" HorizontalAlignment="Left" Height="28.89" UseLayoutRounding="False" VerticalAlignment="Top" Width="32" Margin="12,11,0,0" FlowDirection="LeftToRight">
+            <Canvas x:Name="Layer_2" Height="29" Width="29">
+                <Path Data="M259.376,315.4351C264.15,298.7851,278.781,287.6321,295.114,286.4951C292.399,287.7471,289.168,292.9171,290.695,298.3421C290.173,297.9761,288.198,296.4141,287.669,296.2051C285.6,295.3861,284.729,292.4951,284.729,292.4951C284.729,292.4951,285.414,300.3501,290.129,302.1051C290.655,302.3011,291.813,302.3031,292.374,302.3451C295.058,309.8701,296.736,308.7911,302.4,323.8831C302.746,325.2921,303.037,326.7731,303.255,328.3301C297.329,314.4051,276.477,312.5351,276.477,312.5351C276.477,312.5351,279.634,316.3551,281.438,323.8341C283.674,333.1081,292.293,343.1361,303.172,341.2201C301.015,352.6171,289.4,360.4681,277.565,358.3681C266.754,356.4481,261.397,344.9571,259.225,337.0071C257.356,330.1681,257.279,322.7481,259.376,315.4351 M301.256,286.5431C303.811,286.7611,306.381,287.2281,308.939,287.9621C330.212,294.0621,342.512,316.2511,336.411,337.5241C331.702,353.9481,317.402,365.0231,301.339,366.4121C304.028,363.0421,311.951,352.1131,311.547,340.7361C311.344,335.0291,309.135,327.8371,306.755,321.8901C307.564,321.4891,308.39,321.0171,309.004,320.5111C317.398,313.6151,311.76,299.5671,311.76,299.5671C311.76,299.5671,310.529,302.4091,306.879,305.5341C304.941,307.1921,303.259,309.5421,302.294,312.1201C300.572,308.7311,288.654,295.9671,295.491,287.7531C296.731,286.0921,299.772,286.4171,301.256,286.5431" Fill="#FFB25A25" Height="26.119" Canvas.Left="10" Stretch="Fill" Width="26.178" Canvas.Top="-7.119"/>
+            </Canvas>
+        </Canvas>
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+
+</phone:PhoneApplicationPage>

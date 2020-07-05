@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 wp14">
+	<w:body>
+		<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+			<w:pPr>
+				<w:pStyle w:val="a3"/>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+				<w:t>{CITY}</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+			<w:pPr>
+				<w:pStyle w:val="a3"/>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+				<w:t>{PHONE}</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+			<w:pPr>
+				<w:pStyle w:val="a3"/>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+				<w:t>{BDATE}</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+			<w:pPr>
+				<w:pStyle w:val="a3"/>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rStyle w:val="Emphasis"/>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+				<w:t>{EMAIL}</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+			<w:pPr>
+				<w:pStyle w:val="a4"/>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:ind w:left="0"/>
+				<w:rPr>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+			<w:r>
+				<w:rPr>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:rtl w:val="0"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+				<w:t>{NAME}</w:t>
+			</w:r>
+		</w:p>
+		<w:tbl>
+			<w:tblPr>
+				<w:tblStyle w:val="a0"/>
+				<w:bidiVisual/>
+				<w:tblW w:w="5001" w:type="pct"/>
+				<w:tblInd w:w="-3" w:type="dxa"/>
+				<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+				<w:tblDescription w:val="קורות חיים"/>
+			</w:tblPr>
+			<w:tblGrid>
+				<w:gridCol w:w="1862"/>
+				<w:gridCol w:w="483"/>
+				<w:gridCol w:w="8124"/>
+			</w:tblGrid>
+			<w:tr w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+						<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+						<w:bookmarkEnd w:id="0"/>
+						<w:r w:rsidRPr="00E22612">
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>השכלה</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+					<w:tbl>
+						<w:tblPr>
+							<w:tblStyle w:val="a1"/>
+							<w:bidiVisual/>
+							<w:tblW w:w="0" w:type="auto"/>
+							<w:tblLook w:val="0600" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="1" w:noVBand="1"/>
+						</w:tblPr>
+						<w:tblGrid>
+							<w:gridCol w:w="8124"/>
+						</w:tblGrid>
+						{EDUCATION}
+					</w:tbl>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>שירות צבאי</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+					<w:tbl>
+						<w:tblPr>
+							<w:tblStyle w:val="a1"/>
+							<w:bidiVisual/>
+							<w:tblW w:w="0" w:type="auto"/>
+							<w:tblLook w:val="0600" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="1" w:noVBand="1"/>
+						</w:tblPr>
+						<w:tblGrid>
+							<w:gridCol w:w="8124"/>
+						</w:tblGrid>
+						{MIL}
+					</w:tbl>
+					<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00065FD1" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r w:rsidRPr="00E22612">
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>ניסיון תעסוקתי</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00EA1DC6" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+					<w:tbl>
+						<w:tblPr>
+							<w:tblStyle w:val="a1"/>
+							<w:bidiVisual/>
+							<w:tblW w:w="0" w:type="auto"/>
+							<w:tblLook w:val="0600" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="1" w:noVBand="1"/>
+						</w:tblPr>
+						<w:tblGrid>
+							<w:gridCol w:w="8124"/>
+						</w:tblGrid>
+						{WORKEX}
+					</w:tbl>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00EA1DC6" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:eastAsiaTheme="minorEastAsia" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>שפות</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+          
+          {LANGS}
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>שליטה במחשב</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="a"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:b/>
+								<w:bCs/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:b/>
+								<w:bCs/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+							<w:t xml:space="preserve">{COMPUTER}</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+			</w:tr>
+			<w:tr w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidTr="00E22612">
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="1862" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00065FD1" w:rsidP="00E22612">
+						<w:pPr>
+							<w:pStyle w:val="Heading1"/>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r w:rsidRPr="00E22612">
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+								<w:lang w:val="he-IL"/>
+							</w:rPr>
+							<w:t>המלצות</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="483" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00EA1DC6" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+				</w:tc>
+				<w:tc>
+					<w:tcPr>
+						<w:tcW w:w="8125" w:type="dxa"/>
+					</w:tcPr>
+					<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+						<w:pPr>
+							<w:spacing w:line="360" w:lineRule="auto"/>
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:eastAsiaTheme="minorEastAsia" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+								<w:b/>
+								<w:bCs/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r w:rsidRPr="00E22612">
+							<w:rPr>
+								<w:rFonts w:ascii="Tahoma" w:eastAsiaTheme="minorEastAsia" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+								<w:b/>
+								<w:bCs/>
+								<w:color w:val="000000" w:themeColor="text1"/>
+								<w:cs w:val="0"/>
+							</w:rPr>
+							<w:t>יינתנו עפ"י דרישה</w:t>
+						</w:r>
+					</w:p>
+				</w:tc>
+			</w:tr>
+		</w:tbl>
+		<w:p w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidRDefault="00EA1DC6" w:rsidP="00E22612">
+			<w:pPr>
+				<w:spacing w:line="360" w:lineRule="auto"/>
+				<w:rPr>
+					<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+					<w:cs w:val="0"/>
+				</w:rPr>
+			</w:pPr>
+		</w:p>
+		<w:sectPr w:rsidR="00EA1DC6" w:rsidRPr="00E22612" w:rsidSect="00E22612">
+			<w:footerReference w:type="default" r:id="rId10"/>
+			<w:pgSz w:w="11907" w:h="16839" w:code="1"/>
+			<w:pgMar w:top="720" w:right="720" w:bottom="720" w:left="720" w:header="709" w:footer="709" w:gutter="0"/>
+			<w:pgNumType w:start="1"/>
+			<w:cols w:space="720"/>
+			<w:titlePg/>
+			<w:bidi/>
+			<w:rtlGutter/>
+			<w:docGrid w:linePitch="360"/>
+		</w:sectPr>
+	</w:body>
+</w:document>

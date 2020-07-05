@@ -1,0 +1,129 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BeAtzmi.Pages.ResumeBuilderPages.ItemCreatorPages.AddLanguage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    FlowDirection="RightToLeft"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="AutoCompleteBoxStyleLANG" TargetType="toolkit:AutoCompleteBox">
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <ContentControl Content="{Binding}" Margin="8,7"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="6,0,6,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="toolkit:AutoCompleteBox">
+                        <Grid>
+                            <toolkit:PhoneTextBox Hint="שם השפה" x:Name="Text" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Foreground="{TemplateBinding Foreground}" FontWeight="{TemplateBinding FontWeight}" FontStyle="{TemplateBinding FontStyle}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" InputScope="{TemplateBinding InputScope}" Opacity="{TemplateBinding Opacity}" Padding="{TemplateBinding Padding}" Style="{TemplateBinding TextBoxStyle}"/>
+                            <Popup x:Name="Popup">
+                                <ListBox x:Name="Selector" BorderBrush="{StaticResource PhoneTextBoxEditBorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="White" Foreground="{TemplateBinding Foreground}" FontWeight="{TemplateBinding FontWeight}" FontStyle="{TemplateBinding FontStyle}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" IsTabStop="False" ItemTemplate="{TemplateBinding ItemTemplate}" ItemContainerStyle="{TemplateBinding ItemContainerStyle}" Opacity="{TemplateBinding Opacity}" Padding="0,8"/>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="AutoCompleteBoxStyle1" TargetType="toolkit:AutoCompleteBox">
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <ContentControl Content="{Binding}" Margin="8,7"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="6,0,6,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="toolkit:AutoCompleteBox">
+                        <Grid>
+                            <toolkit:PhoneTextBox Hint="שם השפה" x:Name="Text" Background="{TemplateBinding Background}" Foreground="{TemplateBinding Foreground}" FontWeight="{TemplateBinding FontWeight}" FontStyle="{TemplateBinding FontStyle}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" InputScope="{TemplateBinding InputScope}" Opacity="{TemplateBinding Opacity}" Padding="{TemplateBinding Padding}" Style="{TemplateBinding TextBoxStyle}" BorderThickness="0,0,0,3" BorderBrush="#7F000000"/>
+                            <Popup x:Name="Popup">
+                                <ListBox x:Name="Selector" BorderBrush="{StaticResource PhoneTextBoxEditBorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="White" Foreground="{TemplateBinding Foreground}" FontWeight="{TemplateBinding FontWeight}" FontStyle="{TemplateBinding FontStyle}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" IsTabStop="False" ItemTemplate="{TemplateBinding ItemTemplate}" ItemContainerStyle="{TemplateBinding ItemContainerStyle}" Opacity="{TemplateBinding Opacity}" Padding="0,8"/>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="#FFD9763D">
+            <shell:ApplicationBarIconButton IconUri="/Toolkit.Content/ApplicationBar.Cancel.png" Text="ביטול" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/add.png" Text="הוסף" Click="ApplicationBarIconButton_Click_1"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFEDEDED">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,112.11,12,-0.11">
+            <StackPanel>
+                <toolkit:AutoCompleteBox x:Name="langName" Style="{StaticResource AutoCompleteBoxStyle1}" />
+                <TextBlock HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="רמת שליטה בשפה" VerticalAlignment="Top" Width="171" Foreground="#FF333333"/>
+                <toolkit:ListPicker x:Name="level" Foreground="#FF333333" BorderThickness="0,0,0,3">
+                    <toolkit:ListPicker.BorderBrush>
+                        <SolidColorBrush Color="#FF727272"/>
+                    </toolkit:ListPicker.BorderBrush>
+                    <toolkit:ListPickerItem Content="רמה בסיסית" Background="#BFFFFFFF" />
+                    <toolkit:ListPickerItem Content="רמה טובה" Background="#BFFFFFFF" />
+                    <toolkit:ListPickerItem Content="רמה טובה מאוד" Background="#BFFFFFFF" />
+                    <toolkit:ListPickerItem Content="כמו שפת אם" Background="#BFFFFFFF" />
+                    <toolkit:ListPickerItem Content="שפת אם" Background="#BFFFFFFF" />
+                </toolkit:ListPicker>
+                
+                <!--
+                
+                    BirthLanguage = 4,
+                    BirthLanguageLevel = 3,
+                    VeryGoodLevel = 2,
+                    GoodLevel = 1,
+                    BasicLevel = 0
+                
+                -->
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="0" Margin="10,18,2,534" Grid.RowSpan="2">
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF333333" Text="בעצמי" Margin="40,0,326,0"/>
+            <TextBlock Text="הוסף שפה" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FF333333"/>
+        </StackPanel>
+        <Canvas x:Name="logo" HorizontalAlignment="Left" Height="28.89" UseLayoutRounding="False" VerticalAlignment="Top" Width="32" Margin="16,21,0,0" FlowDirection="LeftToRight">
+            <Canvas x:Name="Layer_2" Height="29.336" Width="28.618">
+                <Path Data="M259.376,315.4351C264.15,298.7851,278.781,287.6321,295.114,286.4951C292.399,287.7471,289.168,292.9171,290.695,298.3421C290.173,297.9761,288.198,296.4141,287.669,296.2051C285.6,295.3861,284.729,292.4951,284.729,292.4951C284.729,292.4951,285.414,300.3501,290.129,302.1051C290.655,302.3011,291.813,302.3031,292.374,302.3451C295.058,309.8701,296.736,308.7911,302.4,323.8831C302.746,325.2921,303.037,326.7731,303.255,328.3301C297.329,314.4051,276.477,312.5351,276.477,312.5351C276.477,312.5351,279.634,316.3551,281.438,323.8341C283.674,333.1081,292.293,343.1361,303.172,341.2201C301.015,352.6171,289.4,360.4681,277.565,358.3681C266.754,356.4481,261.397,344.9571,259.225,337.0071C257.356,330.1681,257.279,322.7481,259.376,315.4351 M301.256,286.5431C303.811,286.7611,306.381,287.2281,308.939,287.9621C330.212,294.0621,342.512,316.2511,336.411,337.5241C331.702,353.9481,317.402,365.0231,301.339,366.4121C304.028,363.0421,311.951,352.1131,311.547,340.7361C311.344,335.0291,309.135,327.8371,306.755,321.8901C307.564,321.4891,308.39,321.0171,309.004,320.5111C317.398,313.6151,311.76,299.5671,311.76,299.5671C311.76,299.5671,310.529,302.4091,306.879,305.5341C304.941,307.1921,303.259,309.5421,302.294,312.1201C300.572,308.7311,288.654,295.9671,295.491,287.7531C296.731,286.0921,299.772,286.4171,301.256,286.5431" Fill="#FFB25A25" Height="26.119" Canvas.Left="2.44" Stretch="Fill" Width="26.178"/>
+            </Canvas>
+        </Canvas>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,93 @@
+﻿<w:tr w:rsidR="00E22612" w:rsidTr="002F6885">
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="8125" w:type="dxa"/>
+								</w:tcPr>
+								<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+									<w:pPr>
+										<w:spacing w:line="360" w:lineRule="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{STARTYEAR} </w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t>–</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t xml:space="preserve"> {ENDYEAR} </w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t>–</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t xml:space="preserve"/>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:b/>
+											<w:bCs/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t>{JOBNAME}</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t>, {WORKPLACE}</w:t>
+									</w:r>
+								</w:p>
+								<w:p w:rsidR="00E22612" w:rsidRDefault="00E22612" w:rsidP="00E22612">
+									<w:pPr>
+										<w:spacing w:line="360" w:lineRule="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r w:rsidRPr="00E22612">
+										<w:rPr>
+											<w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma" w:hint="cs"/>
+											<w:color w:val="000000" w:themeColor="text1"/>
+											<w:cs w:val="0"/>
+										</w:rPr>
+										<w:t>{DETAILS}</w:t>
+									</w:r>
+								</w:p>
+							</w:tc>
+						</w:tr>

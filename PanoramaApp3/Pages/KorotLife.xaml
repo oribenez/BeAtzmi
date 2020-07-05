@@ -1,0 +1,1107 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    d:DesignHeight="2000"
+    x:Class="BeAtzmi.KorotLife"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn" />
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut" />
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut" />
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <!--Pivot Control-->
+        <phone:Pivot Title="  " FlowDirection="RightToLeft" Foreground="#FF333333" Background="#FFEDEDED">
+
+            <!--Pivot item one-->
+            <phone:PivotItem Header="קורות חיים">
+                <Grid>
+                    <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <StackPanel>
+                            <Button Content="בנה קורות חיים בעזרת האשף של בעצמי!" Click="Button_Click" Background="{StaticResource PhoneAccentBrush}" />
+                            <TextBlock Margin="12" TextWrapping="Wrap" Width="438" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="18.667" LineHeight="35">
+                        	<Run FontWeight="Bold" FontSize="28" Text="קורות חיים פונקציונאליים"/>
+                        	<LineBreak/>
+                             <LineBreak/>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מדגישה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="את"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Run Text="התפקידים, המיומנויות, הכישורים וההישגים" TextDecorations="Underline"/>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הקשורים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בתפקידיך"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הקודמים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ומאפשרת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הצגת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כישוריך"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="על"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="-"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="פי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="סדר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="חשיבותם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לתפקיד"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="המבוקש"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ולא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="על"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="-"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="פי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="סדרם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הכרונולוגי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="."/>
+                        	</Span>
+                        	<LineBreak/>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לכן"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מומלצת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לחדשים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בשוק"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="העבודה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לבעלי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" &quot;"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="חורים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="&quot; "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בהשכלה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לחסרי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="רצף"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תעסוקתי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בשנים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="האחרונות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" ("/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עקב"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="אבטלה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="משרות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זמניות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מחלה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=","/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="נסיעות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לחו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="&quot;"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ל"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="וכו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="'), "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="למעוניינים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="להסתיר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="או"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לטשטש"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="את"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="גילם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לבעלי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ניסיון"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מקוטע"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ולא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ממוקד"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ולמעוניינים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בשינוי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="קריירה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="/"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="או"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בהסבה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מקצועית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=". "/>
+                        	</Span>
+                        	<Span>
+                        		<Run/>
+                        	</Span>
+                        	<LineBreak/>
+                        	<Span>
+                        		<Run Text="בתבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שמות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מקומות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עבודה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="או"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הגדרות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תפקיד"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="אינם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מובלטים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ולעיתים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="אף"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="יופיעו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כלל"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="במסמך"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="."/>
+                        	</Span>
+                        	<LineBreak/>
+                        	<Span>
+                        		<Run/>
+                        	</Span>
+                        	<LineBreak/>
+                        	<Span>
+                        		<Run Text="יש"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לציין"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="היא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מורכבת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="יותר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ודורשת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עבודת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עריכה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="רבה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=". "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="יחד"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זאת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ייתכן"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שדווקא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מאפשרת לך"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="להבליט"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="את"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עצמך"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כפי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שאתה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="היום"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עם"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="פחות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="דגש"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="על"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מטעני"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="העבר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=". "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="חשוב"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לציין"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="זו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שהיא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="פחות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="נפוצה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תמצא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="חן"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בעיני"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="קוראים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מסוימים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שיעדיפו"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="את"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תבנית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="קורות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="החיים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הכרונולוגיים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="המוכרת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="יותר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ניתן"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לראות בבירור"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="היכן"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עבדת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ומה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עשית"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בכל"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="תפקיד"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="."/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" אפשר"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לתחום"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="עיסוקים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="מסוימים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="בשנים"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=", "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="וזה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="נתון"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לשיקול"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="דעת"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הכותב"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="."/>
+                        	</Span>
+                        	<LineBreak/>
+                                <LineBreak/>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="בעת"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="הכתיבה"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="עליך"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="להקפיד"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="על"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="מספר"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text="כללים"/>
+                        	</Span>
+                        	<Span FontWeight="Bold">
+                        		<Run Text=" :"/>
+                        	</Span>
+                                <LineBreak/>
+                        	<LineBreak/>
+                        	<Run Text="• זכור: קורות חיים אינם סיפור חיים.&#xD;&#xA;• יש להתאים את קורות החיים למשרה המבוקשת. ייתכן ותצטרך לשנות סעיפים שונים בקורות החיים (לקצר או לפרט), בהתאם לדרישות התפקיד ואופי הארגון.&#xD;&#xA;• קורות החיים צריכים להיות ממוקדים, תמציתיים, ברורים, נעימים לעין ואמינים. הרושם הראשוני ישפיע ביותר על סיכוייך להגיע לראיון.&#xD;&#xA;• כתוב את האמת (אין חובה לכתוב את כל האמת, אך יש לכתוב את האמת בלבד). הימנע מסילוף עובדות ומהגזמות&#xD;&#xA;• רצוי לא לגלוש מעבר לעמוד אחד. מאידך, אין לדחוס יותר מדי מלל כך שהדף ייראה עמוס ובלתי מזמין לקריאה.&#xD;&#xA;• יש להגיש את קורות החיים מודפסים."/>
+                        	<Span>
+                        		<Run Text="חובה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="לבצע"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="הגהה"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="ולוודא"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כי"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="אין"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="שגיאות"/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text=" "/>
+                        	</Span>
+                        	<Span>
+                        		<Run Text="כתיב"/>
+                        	</Span>
+                            </TextBlock>
+                            <Button Content="בנה קורות חיים בעזרת האשף של בעצמי!" Click="Button_Click"  Background="{StaticResource PhoneAccentBrush}" />
+                        </StackPanel>
+
+                    </ScrollViewer>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="דוגמה">
+                <Grid FlowDirection="RightToLeft">
+                    <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black">
+                        <Image Margin="12" Source="/Assets/Olga.png" Stretch="Fill"/>
+                    </ScrollViewer>
+                </Grid>
+
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+        </phone:Pivot>
+        <TextBlock Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF333333" Text="בעצמי" Margin="344,20,60,721" FlowDirection="RightToLeft" FontSize="22"/>
+        <Canvas x:Name="logo" HorizontalAlignment="Left" Height="28.89" UseLayoutRounding="True" VerticalAlignment="Top" Width="32" Margin="425,18,0,0" FlowDirection="LeftToRight">
+            <Canvas x:Name="Layer_2" Height="29.336" Width="28.618">
+                <Path Data="M259.376,315.4351C264.15,298.7851,278.781,287.6321,295.114,286.4951C292.399,287.7471,289.168,292.9171,290.695,298.3421C290.173,297.9761,288.198,296.4141,287.669,296.2051C285.6,295.3861,284.729,292.4951,284.729,292.4951C284.729,292.4951,285.414,300.3501,290.129,302.1051C290.655,302.3011,291.813,302.3031,292.374,302.3451C295.058,309.8701,296.736,308.7911,302.4,323.8831C302.746,325.2921,303.037,326.7731,303.255,328.3301C297.329,314.4051,276.477,312.5351,276.477,312.5351C276.477,312.5351,279.634,316.3551,281.438,323.8341C283.674,333.1081,292.293,343.1361,303.172,341.2201C301.015,352.6171,289.4,360.4681,277.565,358.3681C266.754,356.4481,261.397,344.9571,259.225,337.0071C257.356,330.1681,257.279,322.7481,259.376,315.4351 M301.256,286.5431C303.811,286.7611,306.381,287.2281,308.939,287.9621C330.212,294.0621,342.512,316.2511,336.411,337.5241C331.702,353.9481,317.402,365.0231,301.339,366.4121C304.028,363.0421,311.951,352.1131,311.547,340.7361C311.344,335.0291,309.135,327.8371,306.755,321.8901C307.564,321.4891,308.39,321.0171,309.004,320.5111C317.398,313.6151,311.76,299.5671,311.76,299.5671C311.76,299.5671,310.529,302.4091,306.879,305.5341C304.941,307.1921,303.259,309.5421,302.294,312.1201C300.572,308.7311,288.654,295.9671,295.491,287.7531C296.731,286.0921,299.772,286.4171,301.256,286.5431" Fill="#FFB25A25" Height="28.941" Canvas.Left="-0.411" Stretch="Fill" Width="28.94" Canvas.Top="1.559" UseLayoutRounding="False"/>
+            </Canvas>
+        </Canvas>
+        <Button Content="המשך" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{StaticResource PhoneAccentBrush}" Height="65" Width="107" Click="Button_Click_1" FontSize="18" />
+    </Grid>
+
+</phone:PhoneApplicationPage>

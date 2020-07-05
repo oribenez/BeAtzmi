@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.0">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>Be Atzmi</CommandPrefix>
+    <Example> search for employment bureaus around me. </Example>
+
+    <Command Name="SearchBureau">
+      <Example> search for employment bureaus around me. </Example>
+      <ListenFor>search [a] [an] [for] employment bureau [around] [you] [phone] [here] [me]</ListenFor>
+      <Feedback> Searching for employment bureaus around you </Feedback>
+      <Navigate Target="/Pages/LishkotSearch.xaml" />
+    </Command>
+
+    <Command Name="ClosestBureau">
+      <Example> where is the closest employment bureau? </Example>
+      <ListenFor>where is the closest employment bureau [here] [around me] ?</ListenFor>
+      <ListenFor>'what is the closest employment bureau [here] [around me] ?</ListenFor>
+      <Feedback> Showing the closest employment bureau </Feedback>
+      <Navigate Target="/Pages/LishkotSearch.xaml" />
+    </Command>
+
+    <Command Name="CallBureau">
+      <Example> call the closest employment bureau. </Example>
+      <ListenFor>call [to] [the] closest [employment] bureau [around] [me] [here]</ListenFor>
+      <Feedback> Calling closest employment bureau. </Feedback>
+      <Navigate Target="/Pages/LishkotSearch.xaml?callClosest" />
+    </Command>
+
+    <Command Name="Status">
+      <Example> where is my status? </Example>
+      <ListenFor>what is [my] [the] status?</ListenFor>
+      <Feedback> Showing your status </Feedback>
+      <Navigate Target="/Pages/Status.xaml" />
+    </Command>
+
+    <Command Name="LaunchApp">
+      <Example> launch app </Example>
+      <ListenFor>launch [the] app [now]</ListenFor>
+      <Feedback> Launching app </Feedback>
+      <Navigate Target="/MainPage.xaml" />
+    </Command>
+
+    <Command Name="callTaasokav">
+      <Example> call TassoKav </Example>
+      <ListenFor>call TassoKav </ListenFor>
+      <Feedback> calling TassoKav </Feedback>
+      <Navigate Target="/MainPage.xaml?callTaasokav=1" />
+    </Command>
+
+  </CommandSet>
+</VoiceCommands>
+
+<!-- Example -->
+<!--
+
+    The preceding example demonstrates a hypothetical game called 'Contoso ROD3O!' which defines two
+    Commands that a user can say to either start a new game or replay one of three levels in the game.  
+    To initiate the PlayGame command, a user can say "Contoso Rodeo play  a new game" or "Contoso Rodeo
+    play new game". Either phrase will start a new game. To initiate the second Command, a user can say
+    "Contoso Rodeo replay level one", "Contoso Rodeo replay level two", or "Contoso Rodeo replay level 
+    three".
+    The second Command demonstrates how to use a PhraseList with a Command. PhraseLists can be updated 
+    dynamically by the application (e.g., if a user unlocks a new level or game or feature, you might 
+    want to allow the user to give commands for newfeatures after voice commands are already registered.)
+    The third Command demonstrates how the {*} sequence can parallel another command to recognize speech
+    that is not defined in the CommandSet.
+
+  Note:
+
+      [and] Indicates that "and" is optional. Making connecting words like this optional
+            can help both "Contoso Rodeo, play new game" and "open Contoso Rodeo and play
+            a new game" feel natural to speak.
+                 
+      {number} Defined separately from the Command, mapping to "one" or "two" or "three".
+
+-->
